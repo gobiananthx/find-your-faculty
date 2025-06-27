@@ -1,0 +1,113 @@
+.search-page {
+  background-color: #e8e4d9;
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: "Inter", sans-serif;
+  border-radius: 0 0 20px 20px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  border-radius: 30px;
+  width: 80%;
+  max-width: 936px;
+  height: 61px;
+  margin: 0 auto 3rem auto;
+  padding: 0 1.5rem;
+}
+
+.search-icon {
+  color: #e7e5d6;
+  font-size: 28px;
+  margin-right: 1rem;
+}
+
+.search-bar input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #e7e5d6;
+  font-size: 24px;
+  width: 100%;
+}
+
+.search-bar input::placeholder {
+  color: #e7e5d6;
+  font-weight: 400;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: flex-start;
+}
+
+.faculty-photo {
+  width: 100%;
+  height: 345px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.faculty-card {
+  background-color: #000;
+  width: 390px;
+  height: 500px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: #e7e5d6;
+  text-align: center;
+}
+
+.faculty-name {
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 1rem;
+  word-wrap: break-word;
+  padding: 0 0.5rem;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.know-more-btn {
+  background-color: #e7e5d6;
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  width: 80%;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.know-more-btn:hover {
+  background-color: #d5d3c6;
+}
+
+.loading-spinner {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 2rem;
+}
+
+.search-note {
+  color: #a33;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,78 @@
+.home {
+  background-color: #e8e4d9;
+  border-radius: 0 0 20px 20px;
+  padding: 1.73rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+.home-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 2rem;
+}
+
+.home-left {
+  flex: 1;
+  min-width: 300px;
+  margin-left: -2rem;
+  padding-right: 3rem;
+}
+
+.home-title {
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 100%;
+  color: #000;
+  margin-bottom: 3.5rem;
+}
+
+.search-button {
+  background-color: #000;
+  color: #e7e5d6;
+  font-size: 26px;
+  font-weight: 600;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.search-button:hover {
+  background-color: #333;
+}
+
+.search-bar,
+.input-note {
+  display: none;
+}
+
+.home-right {
+  margin-top: 3rem;
+  margin-left: 2rem;
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.teacher-image {
+  width: 500px;
+  height: auto;
+}
+
+.footer-text {
+  font-size: 29px;
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+  margin-top: 3.2rem;
+}
